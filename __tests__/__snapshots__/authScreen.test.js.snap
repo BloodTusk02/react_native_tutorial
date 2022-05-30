@@ -1,0 +1,184 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "white",
+        "flex": 1,
+        "justifyContent": "center",
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "fontSize": 25,
+        }
+      }
+    >
+      Войдите в приложение
+    </Text>
+    <View
+      style={
+        Object {
+          "marginVertical": 10,
+        }
+      }
+    >
+      <View
+        accessible={true}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#F57600",
+            "borderColor": "#F57600",
+            "borderRadius": 10,
+            "borderWidth": 2,
+            "height": 50,
+            "justifyContent": "center",
+            "marginBottom": 10,
+            "marginVertical": 50,
+            "opacity": 1,
+            "width": 290,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "white",
+              "fontSize": 25,
+            }
+          }
+        >
+          Log In
+        </Text>
+      </View>
+    </View>
+    <View
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#F57600",
+          "borderColor": "#F57600",
+          "borderRadius": 10,
+          "borderWidth": 2,
+          "height": 50,
+          "justifyContent": "center",
+          "opacity": 1,
+          "width": 290,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "white",
+            "fontSize": 25,
+          }
+        }
+      >
+        Register
+      </Text>
+    </View>
+    <View
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#F57600",
+          "borderColor": "#F57600",
+          "borderRadius": 10,
+          "borderWidth": 2,
+          "height": 50,
+          "justifyContent": "center",
+          "marginTop": 20,
+          "opacity": 1,
+          "width": 290,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "white",
+            "fontSize": 25,
+          }
+        }
+      >
+        Create Form
+      </Text>
+    </View>
+    <View
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#F57600",
+          "borderColor": "#F57600",
+          "borderRadius": 10,
+          "borderWidth": 2,
+          "height": 50,
+          "justifyContent": "center",
+          "marginTop": 20,
+          "opacity": 1,
+          "width": 290,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "white",
+            "fontSize": 25,
+          }
+        }
+      >
+        MainScreen
+      </Text>
+    </View>
+  </View>
+</View>
+`;
