@@ -7,7 +7,7 @@ import {
   TouchableOpacity,
 } from "react-native";
 
-const Registration = ({ navigation }) => {
+const Registration = ({ navigation, handleSaveUser }) => {
   const [logText, setLogText] = useState("");
   const [passText, setPassText] = useState("");
 
@@ -32,6 +32,7 @@ const Registration = ({ navigation }) => {
         <TouchableOpacity
           style={styles.button}
           onPress={() => {
+            handleSaveUser({login: logText, password: passText});
             navigation.navigate("CreateProfile");
           }}
         >

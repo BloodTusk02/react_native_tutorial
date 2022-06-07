@@ -39,6 +39,22 @@ const Auth = ({ navigation }) => (
       >
         <Text style={styles.btnText}>MainScreen</Text>
       </TouchableOpacity>
+      <TouchableOpacity
+        style={{...styles.button, marginTop: 20}}
+        onPress={() => {
+          navigation.navigate("ProfileScreen");
+        }}
+      >
+        <Text style={styles.btnText}>ProfileScreen</Text>
+      </TouchableOpacity>
+      <TouchableOpacity
+        style={{...styles.button, marginTop: 20}}
+        onPress={() => {
+          navigation.navigate("AddReview");
+        }}
+      >
+        <Text style={styles.btnText}>AddReview</Text>
+      </TouchableOpacity>
     </View>
   </View>
 );
