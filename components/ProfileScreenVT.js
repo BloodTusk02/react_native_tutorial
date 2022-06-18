@@ -17,29 +17,31 @@ const ProfileScreen = () => {
     <View style={{ flex: 1 }}>
       <ScrollView style={styles.scrollViewContainer}>
         <View style={styles.container}>
-          <Image
-            style={styles.imageInForm}
-            source={require("./img/7.jpg")}
-          />
+          <Image style={styles.imageInForm} source={require("./img/2.jpg")} />
           <View style={styles.profileScreenContainer}>
-            <Text style={{ fontSize: 25 }}>Rozhnov Roman Igorevich</Text>
-            <Text style={{ fontSize: 20, marginTop: 20 }}>
-              I help you find a car {"\n"}for your needs{"\n"}
-              {"\n"}My main qualities:
-              {"\n"}-Speed of execution.
-              {"\n"}-Literate approach
-              {"\n"}-Big experience
+            <Text style={{ fontSize: 25 }}>Vurhiz Tillot</Text>
+            <Text style={{ fontSize: 20, marginTop: 10 }}>
+              Drafting of letters, {"\n"}contracts and statements{"\n"}to the
+              court.
               {"\n"}
-              {"\n"}Price: 350$/hour
+              {"\n"}My main qualities:
+              {"\n"}-General culture and broad outlook.
+              {"\n"}-Punctuality, commitment.
+              {"\n"}
+              {"\n"}Price: 1000$/hour
             </Text>
-            <View style={{ marginTop: 1, flexDirection: "row", marginTop: 20 }}>
-              <Text style={{ fontSize: 20 }}>5</Text>
-              <Image
-                style={styles.ratingIcon}
-                source={require("./img/star.png")}
-              />
+            <View>
+              <View
+                style={{ marginTop: 1, flexDirection: "row", marginTop: 20 }}
+              >
+                <Text style={{ fontSize: 20 }}>5</Text>
+                <Image
+                  style={styles.ratingIcon}
+                  source={require("./img/star.png")}
+                />
+              </View>
+              <Text style={{ fontSize: 23 }}>11 Reviews</Text>
             </View>
-            <Text style={{ fontSize: 23 }}>11 Reviews</Text>
           </View>
           <TouchableOpacity
             style={{
@@ -63,7 +65,6 @@ const ProfileScreen = () => {
             <Text style={styles.btnText}>Contact</Text>
           </TouchableOpacity>
         </View>
-        
       </ScrollView>
       <Footer />
     </View>

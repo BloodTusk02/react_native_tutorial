@@ -9,6 +9,7 @@ import {
   StyleSheet,
 } from "react-native";
 import DropDownPicker from "react-native-dropdown-picker";
+import { Footer } from "./Footer";
 
 const MainScreen = ({ navigation }) => {
   const [search, setSearch] = useState("");
@@ -26,7 +27,7 @@ const MainScreen = ({ navigation }) => {
       <View style={styles.container}>
         <Image
           style={{ width: 50, height: 50, position: "absolute", top: 636, left: 330 }}
-          source={require('./img/plus.png')}
+          // source={require('')}
         />
         <TextInput
           style={{...styles.input, marginVertical: 20}}
@@ -53,7 +54,7 @@ const MainScreen = ({ navigation }) => {
         <View style={{ ...styles.formView, flexDirection: "row", alignItems: "flex-start" }}>
           <Image
             style={styles.imageInForm}
-            source={require('./img/img1.jpg')}
+            // source={require('')}
           />
           <View style={{ justifyContent: "center", marginLeft: 10 }}>
             <Text style={styles.specialistName}>
@@ -68,7 +69,7 @@ const MainScreen = ({ navigation }) => {
               </Text>
               <Image
                 style={styles.ratingIcon}
-                source={require('./img/star.png')}
+                // source={require('./img/star.png')}
               />
             </View>
             <Text style={styles.specialistReviews}>
@@ -79,7 +80,7 @@ const MainScreen = ({ navigation }) => {
         <View style={{ ...styles.formView, flexDirection: "row", alignItems: "flex-start" }}>
           <Image
             style={styles.imageInForm}
-            source={require('./img/img2.jpg')}
+            // source={require('')}
           />
           <View style={{ justifyContent: "center", marginLeft: 10 }}>
             <Text style={styles.specialistName}>
@@ -94,7 +95,7 @@ const MainScreen = ({ navigation }) => {
               </Text>
               <Image
                 style={styles.ratingIcon}
-                source={require('./img/star.png')}
+                // source={require('./img/star.png')}
               />
             </View>
             <Text style={styles.specialistReviews}>
@@ -105,7 +106,7 @@ const MainScreen = ({ navigation }) => {
         <View style={{ ...styles.formView, flexDirection: "row", alignItems: "flex-start" }}>
           <Image
             style={styles.imageInForm}
-            source={require('./img/img3.jpg')}
+            // source={require('')}
           />
           <View style={{ justifyContent: "center", marginLeft: 10 }}>
             <Text style={styles.specialistName}>
@@ -120,7 +121,7 @@ const MainScreen = ({ navigation }) => {
               </Text>
               <Image
                 style={styles.ratingIcon}
-                source={require('./img/star.png')}
+                // source={require('./img/star.png')}
               />
             </View>
             <Text style={styles.specialistReviews}>
@@ -131,7 +132,7 @@ const MainScreen = ({ navigation }) => {
         <View style={{ ...styles.formView, flexDirection: "row", alignItems: "flex-start" }}>
           <Image
             style={styles.imageInForm}
-            source={require('./img/img4.jpg')}
+            // source={require('')}
           />
           <View style={{ justifyContent: "center", marginLeft: 10 }}>
             <Text style={styles.specialistName}>
@@ -146,7 +147,7 @@ const MainScreen = ({ navigation }) => {
               </Text>
               <Image
                 style={styles.ratingIcon}
-                source={require('./img/star.png')}
+                // source={require('./img/star.png')}
               />
             </View>
             <Text style={styles.specialistReviews}>
@@ -218,7 +219,7 @@ const styles = StyleSheet.create({
   specialistReviews: {
     fontSize: 15,
     marginLeft: -6
-  }
+  },
 });
 
 export default MainScreen;

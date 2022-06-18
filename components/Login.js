@@ -12,6 +12,7 @@ const Login = () => {
   const [passText, setPassText] = useState("");
   const [loginField, setLoginField] = useState({valid: false, value: "", error: ""});
   const [passwordField, setPasswordField] = useState({valid: false, value: "", error: ""});
+  
   const submitForm = () => {
     let formValid = true;
     if (loginField.valid == false) {

@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Text, ScrollView, View, StyleSheet, TextInput, TouchableOpacity} from "react-native";
 import { RadioButton } from 'react-native-paper';
+import { Footer } from "./Footer";
 
 const AddReview = () => {
     
@@ -65,6 +66,7 @@ const AddReview = () => {
                 <TouchableOpacity style={{...styles.button, backgroundColor: "black", borderColor: "black"}}>
                     <Text style={styles.btnText}>Send Review</Text>
                 </TouchableOpacity>
+                <Footer style={{ justifyContent: "flex-end" }} />
             </View>
         </ScrollView>
     );
